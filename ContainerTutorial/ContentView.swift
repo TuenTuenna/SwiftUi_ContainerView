@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+/// 헤더 컨테이너
+///
+/// 컨테이너 뷰이다
+///
+/// When they eat food, a sloth's `energyLevel` increases by the food's `energy`.
 struct HeaderContainer<Content: View> : View {
     let content : Content
     
