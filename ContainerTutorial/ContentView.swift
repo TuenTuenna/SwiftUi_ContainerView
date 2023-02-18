@@ -19,6 +19,11 @@ struct HeaderContainer<Content: View> : View {
     
     let bgColor : Color
     
+    /// Description
+    /// - Parameters:
+    ///   - headerTitle: headerTitle description
+    ///   - bgColor: bgColor description
+    ///   - content: content description
     init(
         headerTitle : String = "헤더입니다",
         bgColor : Color = Color.gray,
